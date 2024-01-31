@@ -1,0 +1,14 @@
+### 測試
+POST http://localhost:3002/member/signin/google
+Content-Type: application/json
+
+{
+    "providerData": {
+        "providerId": "google.com",
+        "uid": "510000685961710971991",
+        "displayName": "xxx",
+        "email": "xxx@gmail.com",
+        "phoneNumber": null,
+        "photoURL": "https://lh3.googleusercontent.com/a/xxxxxx"
+    }
+}
